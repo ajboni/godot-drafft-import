@@ -1,0 +1,3 @@
+[submodule "drafft/golden-gadget"]
+	path = drafft/golden-gadget
+	url = git@gitlab.com:monnef/golden-gadget.git

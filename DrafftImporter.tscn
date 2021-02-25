@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://drafft/example.gd" type="Script" id=1]
+
+[node name="scripts" type="Node"]
+
+[node name="example" type="Node" parent="."]
+script = ExtResource( 1 )

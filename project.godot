@@ -1,0 +1,75 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "CtxFRef1",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/CtxFRef1.gd"
+}, {
+"base": "Resource",
+"class": "CtxFRef2",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/CtxFRef2.gd"
+}, {
+"base": "Resource",
+"class": "FlowF",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/FlowF.gd"
+}, {
+"base": "Resource",
+"class": "GGArray",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/GGArray.gd"
+}, {
+"base": "Resource",
+"class": "GGInternal",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/GGInternal.gd"
+}, {
+"base": "Node",
+"class": "GGTests",
+"language": "GDScript",
+"path": "res://drafft/goldenGadget/GGTests.gd"
+}, {
+"base": "Reference",
+"class": "DrafftImporter",
+"language": "GDScript",
+"path": "res://drafft/drafft_importer.gd"
+} ]
+_global_script_class_icons={
+"CtxFRef1": "",
+"CtxFRef2": "",
+"FlowF": "",
+"GGArray": "",
+"GGInternal": "",
+"GGTests": "",
+"DrafftImporter": ""
+}
+
+[application]
+
+config/name="drafft-godot-importer"
+run/main_scene="res://DrafftImporter.tscn"
+config/icon="res://icon.png"
+
+[debug]
+
+gdscript/warnings/unused_argument=false
+gdscript/warnings/return_value_discarded=false
+
+[display]
+
+window/size/width=320
+window/size/height=180
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
